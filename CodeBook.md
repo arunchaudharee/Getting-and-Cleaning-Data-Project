@@ -85,7 +85,7 @@ Find the average of each variable for each activity and each subject.
 1. Write the data out to a file "tidydata.txt"
 
 
-#### Variables in the tinydata.txt file
+#### Variables in the tidydata.txt file
 General description of the file including:
  - Dimensions of the dataset
  - Summary of the data
@@ -130,8 +130,7 @@ General description of the file including:
   [67] "frequencyBodyGyroscopeJerkMagnitude.mean"     "frequencyBodyGyroscopeJerkMagnitude.std"  
 
 
-
-#### Summary of Variables of tinydata
+#### Summary of Variables of tidydata
 
 1. subjectNum : int   (1 to 6)
 1. activity : Factor with 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
