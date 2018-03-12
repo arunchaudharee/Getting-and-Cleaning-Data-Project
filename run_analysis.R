@@ -117,7 +117,6 @@ combined_data[, 2] <- activityNames[combined_data[,2], 2]
 ## 4. Appropriately labels the data set with descriptive variable names.
 
 ## Remove the brackets from the features columns
-##measurements <- gsub("\\-|\\(|\\)", "", as.character(mean_std_Features))
 measurements <- gsub("[()]", "", as.character(mean_std_Features))
 
 ## Name the column names of the combined data with "subjectNum", "activity" and features names found in measurements
