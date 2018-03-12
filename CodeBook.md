@@ -71,7 +71,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
     1. Combine them by columns to make one dataset.
 
  
-#### Data Cleaning
+#### Data Extraction and Cleaning
 1. Extract only the mean and std (standard deviation) of features.
 1. Clean column names of the dataset using gsub function. Remove the brackets () from the features columns.
 1. Name the column names of the merged data with "subjectNum", "activity" and features names
