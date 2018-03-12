@@ -86,9 +86,6 @@ str(test_subjects)
 str(test_data)
 str(test_activities)
 
-
-
-
 ## Combine the all tables by the rows together
 row_data <- rbind(train_data, test_data)
 row_activities <- rbind(train_activities, test_activities)
