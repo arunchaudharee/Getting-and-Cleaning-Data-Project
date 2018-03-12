@@ -130,7 +130,7 @@ General description of the file including:
   [67] "frequencyBodyGyroscopeJerkMagnitude.mean"     "frequencyBodyGyroscopeJerkMagnitude.std"  
 
 
-#### Summary of Variables of tidydata
+#### Structure of Variables of tidydata
 
 1. subjectNum : int   (1 to 6)
 1. activity : Factor with 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
