@@ -12,7 +12,7 @@ The data linked to from the course website represent data collected from the acc
 
 Data can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-#### Downloaded datset contains following files.
+#### Downloaded dataset contains following files.
     [1] "activity_labels.txt"                         
     [2] "features.txt"
     [3] "features_info.txt"
@@ -59,7 +59,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-#### Creating the tidy data file
+### Creating the tidy data file
 
 1. First download the zipped dataset from the link given above, unzip it, read readme file, activity_labels, features, features_info files and check data files in each of the folders.
 1. Downloading of file and unzip can be done manually or through coding
@@ -80,19 +80,17 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 #### Create independent tidy data set 
 Find the average of each variable for each activity and each subject.
+
 1. Using "reshape2" package, Melt the data to have a unique row for each combination of subject and activities
 1. Using "reshape2" package, Cast the melted data getting the mean value.
 1. Write the data out to a file "tidydata.txt"
 
 
 #### Variables in the tidydata.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
- 
+General description of the file:
+
 1. It contains 180 observations of 68 variables.
-1. Variable names of tinydata.txt
+1. Variable names of tinydata.txt:
   
   [1] "subjectNum"                                   "activity"                                    
   [3] "timeBodyAccelerometer.mean.X"                 "timeBodyAccelerometer.mean.Y"                
@@ -131,6 +129,7 @@ General description of the file including:
 
 
 #### Structure of Variables of tidydata
+Total of 68 variables in tidy data set:
 
 1. subjectNum : int   (1 to 6)
 1. activity : Factor with 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
